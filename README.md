@@ -6,7 +6,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 
 <br><br><br><br>
 
-## Tools
+## 🔧 Tools
 * [Kustomize](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) (now part of kubectl since 1.14)
 * [kubectx + kubens](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
 * [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with [fzf](https://github.com/junegunn/fzf)
@@ -23,7 +23,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
 * [dexter](https://github.com/gini/dexter) - create & authenticate the kubectl users with OpenId Connect (Google and Azure supported)
 
-## Articles:
+## 📚 Articles:
 * K8s components - good introduction material
 	* [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
 	* [Understanding kubernetes networking: services](https://medium.com/google-cloud/understanding-kubernetes-networking-services-f0cb48e4cc82)
@@ -42,7 +42,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
 
-## Useful commands
+## 📜 Useful commands
 * List all resources in a namespace: `kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n <namespace>`
 * Gets IPs of pods: `kubectl get pods --selector=app=go-ws -o jsonpath='{.items[*].status.podIP}'`
 * List all containers in k8s cluster: `kubectl get pods -o jsonpath={.items[*].spec.containers[*].name} --all-namespaces`
