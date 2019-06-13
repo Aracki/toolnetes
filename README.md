@@ -2,7 +2,7 @@
 
 # toolnetes
 
-Collection of miscellaneous [helper tools](#tools), [must-read articles](#articles). 
+Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-articles). 
 
 <br><br><br><br>
 
@@ -19,6 +19,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - k8s prompt for bash and zsh & [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish
 * [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
+* [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
 * [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
 * [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
 * [dexter](https://github.com/gini/dexter) - create & authenticate the kubectl users with OpenId Connect (Google and Azure supported)
