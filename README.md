@@ -2,7 +2,7 @@
 
 # toolnetes
 
-Collection of miscellaneous [helper tools](#tools), [must-read articles](#articles) & [useful commands](#useful-commands). 
+Collection of miscellaneous [helper tools](#tools), [must-read articles](#articles). 
 
 <br><br><br><br>
 
@@ -41,23 +41,3 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * Great [article](https://medium.com/spire-labs/utilizing-kubernetes-liveness-and-readiness-probes-to-automatically-recover-from-failure-2fe0314f2b2e) about utilizing k8s liveness & readiness probes to automatically recover from failure
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
-
-## 📜 Useful commands
-* List all resources in a namespace: `kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n <namespace>`
-* Gets IPs of pods: `kubectl get pods --selector=app=go-ws -o jsonpath='{.items[*].status.podIP}'`
-* List all containers in k8s cluster: `kubectl get pods -o jsonpath={.items[*].spec.containers[*].name} --all-namespaces`
-* Activate these with **kube-fzf**:
-	* `findpod` + `describepod` + `execpod` + `tailpod`
-* Kill pod forcefully:
-	* `kubectl delete pods <pod> --grace-period=0 --force`
-	* `kubectl patch pod <pod> -p '{"metadata":{"finalizers":null}}'` 
-* Replace resource forcefully: `kubectl replace --force -f go-web-server.yml`
-* Print the supported API versions/resources: 
-	* `kubectl api-versions`
-	* `kubectl api-resources` 
-* Overwriting the existing labels: `kubectl label --overwrite pods foo status=unhealthy`
-* Show the default values for kubelet: `kubeadm config print-default --api-objects KubeletConfiguration`
-* Update existing ConfigMap based on a file: 
-	```
-	kubectl create configmap traefik-conf --from-file=traefik.toml --dry-run -o yaml | kubectl replace configmap traefik-conf -f - -n traefik
-	``` 
