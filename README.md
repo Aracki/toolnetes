@@ -23,6 +23,7 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
 * [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
 * [dexter](https://github.com/gini/dexter) - create & authenticate the kubectl users with OpenId Connect (Google and Azure supported)
+* [helm-diff](https://github.com/databus23/helm-diff) - a must-have plugin for [helm](https://helm.sh/) users
 
 ## 📚 Articles:
 * K8s components - good introduction material
