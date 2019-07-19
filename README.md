@@ -43,3 +43,4 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * Great [article](https://medium.com/spire-labs/utilizing-kubernetes-liveness-and-readiness-probes-to-automatically-recover-from-failure-2fe0314f2b2e) about utilizing k8s liveness & readiness probes to automatically recover from failure
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
+* [33 Kubernetes security tools](https://sysdig.com/blog/33-kubernetes-security-tools/) - Sysdig article about security tools (both open-source & commercial)
