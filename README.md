@@ -39,9 +39,9 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 	* [12 Fractured Apps](https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c) - Kelsey Hightower’s view on how 12FA and Docker can be a killer combo
 	* [Modernizing Applications for Kubernetes](https://dev.to/digitalocean/modernizing-applications-for-kubernetes-1hon) - DigitalOcean guide
 	* [Configuration Best Practices](https://kubernetes.io/docs/concepts/configuration/overview/#general-configuration-tips) - official kubernetes guide
-* [Kubernetes the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Kelsey Hightower’s guide on how to bootstrap k8s the hard way on GCP with no scripts.
+* [Kubernetes the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Kelsey Hightower’s guide on how to bootstrap k8s the hard way on GCP with no scripts
 * Great [article](https://medium.com/spire-labs/utilizing-kubernetes-liveness-and-readiness-probes-to-automatically-recover-from-failure-2fe0314f2b2e) about utilizing k8s liveness & readiness probes to automatically recover from failure
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
 * [33 Kubernetes security tools](https://sysdig.com/blog/33-kubernetes-security-tools/) - Sysdig article about security tools (both open-source & commercial)
-* [Kubernetes failure stories](https://github.com/hjacobs/kubernetes-failure-stories)
+* [Kubernetes failure stories](https://github.com/hjacobs/kubernetes-failure-stories) - Compilation of public failure/horror stories related to Kubernetes 
