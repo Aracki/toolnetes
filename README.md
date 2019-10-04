@@ -13,6 +13,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * [kubetail](https://github.com/johanhaleby/kubetail) & [stern](https://github.com/wercker/stern) - tail k8s logs
 * [rakkess](https://github.com/corneliusweig/rakkess) - show an access matrix
 * [rbac-lookup](https://github.com/reactiveops/rbac-lookup) - find k8s roles and cluster roles
+* [k8sec](https://github.com/dtan4/k8sec) & [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - CLI tools to manage k8s secrets easily
 * [kube-capacity](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
 * [ketall](https://github.com/corneliusweig/ketall) - show really all k8s resources
 * [kubediff](https://github.com/weaveworks/kubediff) - show differences between running state and version controlled configuration
