@@ -46,3 +46,4 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
 * [33 Kubernetes security tools](https://sysdig.com/blog/33-kubernetes-security-tools/) - Sysdig article about security tools (both open-source & commercial)
 * [Kubernetes failure stories](https://github.com/hjacobs/kubernetes-failure-stories) - Compilation of public failure/horror stories related to Kubernetes 
+* [Inside of kubernetes controller](https://speakerdeck.com/govargo/inside-of-kubernetes-controller) - A deep dive into Kubernetes controllers
