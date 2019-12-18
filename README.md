@@ -11,12 +11,13 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * [kubectx + kubens](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
 * [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with [fzf](https://github.com/junegunn/fzf)
 * [kubetail](https://github.com/johanhaleby/kubetail) & [stern](https://github.com/wercker/stern) - tail k8s logs
-* [rakkess](https://github.com/corneliusweig/rakkess) - show an access matrix
+* [rakkess](https://github.com/corneliusweig/rakkess) - shows an access matrix
+* [kubectl-who-can](https://github.com/aquasecurity/kubectl-who-can) - shows which subjects have specific RBAC permissions
 * [rbac-lookup](https://github.com/reactiveops/rbac-lookup) - find k8s roles and cluster roles
 * [k8sec](https://github.com/dtan4/k8sec) & [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - CLI tools to manage k8s secrets easily
 * [kube-capacity](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
-* [ketall](https://github.com/corneliusweig/ketall) - show really all k8s resources
-* [kubediff](https://github.com/weaveworks/kubediff) - show differences between running state and version controlled configuration
+* [ketall](https://github.com/corneliusweig/ketall) - shows all k8s resources (for real!)
+* [kubediff](https://github.com/weaveworks/kubediff) - shows differences between running state and version controlled configuration
 * [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - k8s prompt for bash and zsh & [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish
 * [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
