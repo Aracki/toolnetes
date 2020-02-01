@@ -6,29 +6,37 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 
 <br><br><br><br>
 
-## 🔧 Tools 
+# 🔧 Tools 
 (those with 📦 can be installed via [krew](https://github.com/kubernetes-sigs/krew/))
-* [Kustomize](https://kubernetes.io/blog/2018/05/29/introducing-kustomize-template-free-configuration-customization-for-kubernetes/) (now part of kubectl since 1.14)
-* 📦[kubectx + kubens](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
+
+### 🛡 RBAC
+* [rakkess (📦access-matrix)](https://github.com/corneliusweig/rakkess) - shows an access matrix
+* [kubectl-who-can (📦who-can)](https://github.com/aquasecurity/kubectl-who-can) - shows which subjects have specific RBAC permissions
+* [rbac-lookup (📦rbac-lookup)](https://github.com/reactiveops/rbac-lookup) - find k8s roles and cluster roles
+
+### 🗝 Secret
+* [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage k8s secrets easily
+* [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) 
+
+### 🚀 Speed up terminal
+* [kubectx + kubens (📦ctx + ns)](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
+* [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
+* [ketall (📦get-all)](https://github.com/corneliusweig/ketall) - shows all k8s resources (for real!)
 * [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with [fzf](https://github.com/junegunn/fzf)
-* [kubetail](https://github.com/johanhaleby/kubetail) & [stern](https://github.com/wercker/stern) - tail k8s logs
-* 📦[rakkess/access-matrix](https://github.com/corneliusweig/rakkess) - shows an access matrix
-* 📦[kubectl-who-can](https://github.com/aquasecurity/kubectl-who-can) - shows which subjects have specific RBAC permissions
-* 📦[rbac-lookup](https://github.com/reactiveops/rbac-lookup) - find k8s roles and cluster roles
-* [k8sec](https://github.com/dtan4/k8sec) & [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - CLI tools to manage k8s secrets easily
-* 📦[kube-capacity/resource-capacity](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
-* 📦[ketall](https://github.com/corneliusweig/ketall) - shows all k8s resources (for real!)
-* [kubediff](https://github.com/weaveworks/kubediff) - shows differences between running state and version controlled configuration
-* [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - k8s prompt for bash and zsh & [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish
+* [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
+* [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
+* [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
+
+### 📜 Logs
+* [kubetail](https://github.com/johanhaleby/kubetail) 
+* [stern](https://github.com/wercker/stern) - tail k8s logs
+
+### 📝 Evaluate cluster
 * [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
-* [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
-* [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
-* [dexter](https://github.com/gini/dexter) - create & authenticate the kubectl users with OpenId Connect (Google and Azure supported)
-* [helm-diff](https://github.com/databus23/helm-diff) - a must-have plugin for [helm](https://helm.sh/) users
 
-## 📚 Articles:
+# 📚 Articles:
 * K8s components - good introduction material
 	* [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
 	* [Understanding kubernetes networking: services](https://medium.com/google-cloud/understanding-kubernetes-networking-services-f0cb48e4cc82)
