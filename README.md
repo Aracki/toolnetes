@@ -6,27 +6,28 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 
 <br><br><br><br>
 
-# 🔧 Tools 
+# Tools 
 (those with 📦 can be installed via [krew](https://github.com/kubernetes-sigs/krew/))
+
+### 🚀 Speed up workflow
+* [kubectx + kubens (📦ctx + ns)](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
+* [ketall (📦get-all)](https://github.com/corneliusweig/ketall) - shows all k8s resources (for real!)
+* [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with the power of [fzf](https://github.com/junegunn/fzf)
+* [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
+* [kube-ps1](https://github.com/jonmosco/kube-ps1) - K8s prompt for bash & zsh 
+* [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish together with [Fish auto completion](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
 
 ### 🛡 RBAC
 * [rakkess (📦access-matrix)](https://github.com/corneliusweig/rakkess) - shows an access matrix
 * [kubectl-who-can (📦who-can)](https://github.com/aquasecurity/kubectl-who-can) - shows which subjects have specific RBAC permissions
 * [rbac-lookup (📦rbac-lookup)](https://github.com/reactiveops/rbac-lookup) - find k8s roles and cluster roles
 
-### 🗝 Secret
+### ⚖️ Resources
+* [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
+
+### 🗝 Secrets
 * [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage k8s secrets easily
 * [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) 
-
-### 🚀 Speed up terminal
-* [kubectx + kubens (📦ctx + ns)](https://github.com/ahmetb/kubectx) - switch between clusters and namespaces
-* [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
-* [ketall (📦get-all)](https://github.com/corneliusweig/ketall) - shows all k8s resources (for real!)
-* [kube-fzf](https://github.com/arunvelsriram/kube-fzf) - findpod/tailpod/execpod/describepod with [fzf](https://github.com/junegunn/fzf)
-* [kube-ps1](https://github.com/jonmosco/kube-ps1) - k8s prompt for bash and zsh & [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish
-* [Fish auto completion for kubectl](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
-* [kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet)
-* [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
 
 ### 📜 Logs
 * [kubetail](https://github.com/johanhaleby/kubetail) 
@@ -36,7 +37,7 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
 
-# 📚 Articles:
+# Articles
 * K8s components - good introduction material
 	* [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
 	* [Understanding kubernetes networking: services](https://medium.com/google-cloud/understanding-kubernetes-networking-services-f0cb48e4cc82)
