@@ -24,6 +24,7 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 
 ### ⚖️ Resources
 * [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
+* [kubectl-view-utilization (📦view-utilization)](https://github.com/etopeter/kubectl-view-utilization) - show cluster CPU and Memory requests utilization
 
 ### 🗝 Secrets
 * [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage k8s secrets easily
