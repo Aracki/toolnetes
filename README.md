@@ -27,12 +27,12 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * [kubectl-view-utilization (📦view-utilization)](https://github.com/etopeter/kubectl-view-utilization) - show cluster CPU and Memory requests utilization
 
 ### 🗝 Secrets
-* [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage k8s secrets easily
-* [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) 
+* [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage K8s Secrets easily
+* [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - Detect unused K8s Secrets 
 
 ### 📜 Logs
-* [kubetail](https://github.com/johanhaleby/kubetail) 
-* [stern](https://github.com/wercker/stern) - tail k8s logs
+* [kubetail](https://github.com/johanhaleby/kubetail) - Bash script to tail K8s logs from multiple pods at the same time
+* [stern](https://github.com/wercker/stern) - Multi pod and container log tailing for K8s
 
 ### 📝 Evaluate cluster
 * [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
@@ -47,6 +47,7 @@ Collection of miscellaneous [helper tools](#-tools), [must-read articles](#-arti
 * About networking:
 	* [IP, subnets, CIDR](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
 	* [Network interfaces and protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
+	* [Operating a Kubernetes network](https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/)
 * Best practices:
 	* [The 12 Factor App](https://12factor.net/) - methodology for building modern software 
 	* [12 Fractured Apps](https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c) - Kelsey Hightower’s view on how 12FA and Docker can be a killer combo
