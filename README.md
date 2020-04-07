@@ -2,7 +2,7 @@
 
 # toolnetes
 
-Collection of miscellaneous [helper tools](#-Tools), [must-read articles](#-Articles). 
+Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articles). 
 
 <br><br><br><br>
 
