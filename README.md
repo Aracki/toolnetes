@@ -35,7 +35,7 @@ Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articl
 * [stern](https://github.com/wercker/stern) - Multi pod and container log tailing for K8s
 
 ### 📝 Evaluate cluster
-* [popeye](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
+* [popeye (📦popeye)](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
 
 # Articles
