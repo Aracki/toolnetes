@@ -37,6 +37,9 @@ Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articl
 ### 📝 Evaluate cluster
 * [popeye (📦popeye)](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
+* [kubescape](https://github.com/armosec/kubescape) - testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by NSA
+
+
 
 # Articles
 * K8s components - good introduction material
