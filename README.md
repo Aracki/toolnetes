@@ -17,6 +17,7 @@ Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articl
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - K8s prompt for bash & zsh 
 * [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) for fish together with [Fish auto completion](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0)
 * [kubectl-neat (📦neat)](https://github.com/itaysk/kubectl-neat) - remove clutter from K8s manifests to make them more readable
+* [kubeconform](https://github.com/yannh/kubeconform) - fast K8s manifests validation tool
 
 ### 🛡 RBAC
 * [rakkess (📦access-matrix)](https://github.com/corneliusweig/rakkess) - shows an access matrix
