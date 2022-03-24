@@ -27,6 +27,7 @@ Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articl
 ### ⚖️ Resources
 * [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
 * [kubectl-view-utilization (📦view-utilization)](https://github.com/etopeter/kubectl-view-utilization) - show cluster CPU and Memory requests utilization
+* [kubectl-df-pv (📦df-pv)](https://github.com/yashbhutwala/kubectl-df-pv) - check capacity for all PVCs
 
 ### 🗝 Secrets
 * [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage K8s Secrets easily
