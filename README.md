@@ -38,7 +38,7 @@ Collection of miscellaneous [helper tools](#Tools), [must-read articles](#Articl
 * [stern](https://github.com/wercker/stern) - Multi pod and container log tailing for K8s
 
 ### 📝 Evaluate cluster
-* [pluto](https://github.com/FairwindsOps/pluto) - utility to find deprecated Kubernetes apiVersions
+* [pluto](https://github.com/FairwindsOps/pluto) & [kubent](https://github.com/doitintl/kube-no-trouble) - utilities to find deprecated Kubernetes apiVersions
 * [popeye (📦popeye)](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
 * [kubescape](https://github.com/armosec/kubescape) - testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by NSA
