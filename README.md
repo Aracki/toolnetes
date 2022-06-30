@@ -34,7 +34,6 @@ Collection of miscellaneous helper tools.
 * [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - Detect unused K8s Secrets 
 
 ### 📜 Logs
-* [kubetail](https://github.com/johanhaleby/kubetail) - Bash script to tail K8s logs from multiple pods at the same time
 * [stern](https://github.com/wercker/stern) - Multi pod and container log tailing for K8s
 
 ### 📝 Evaluate cluster
