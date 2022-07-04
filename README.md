@@ -30,7 +30,7 @@ Collection of miscellaneous helper tools.
 * [kubectl-df-pv (📦df-pv)](https://github.com/yashbhutwala/kubectl-df-pv) - check capacity for all PVCs
 
 ### 🗝 Secrets
-* [k8sec](https://github.com/dtan4/k8sec) - CLI tools to manage K8s Secrets easily
+* [kubectl-view-secret (📦view-secret)](https://github.com/elsesiy/kubectl-view-secret) - easy secret decoding tool
 * [k8s-unused-secret-detector](https://github.com/dtan4/k8s-unused-secret-detector) - Detect unused K8s Secrets 
 
 ### 📜 Logs
