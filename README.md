@@ -17,6 +17,7 @@ Collection of miscellaneous helper tools.
 * [kubefwd](https://github.com/txn2/kubefwd) - bulk port forwarding k8s services for local dev
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - K8s prompt for bash & zsh 
 * [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) - K8s prompt for fish (Use together with [Fish auto completion](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0))
+* [kubectl aliases](https://github.com/Aracki/configs/blob/master/.aliases) - check the '#KUBERNETES' section
 
 
 ### 🛡 RBAC
