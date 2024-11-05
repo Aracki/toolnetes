@@ -19,6 +19,8 @@ Collection of miscellaneous helper tools.
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - K8s prompt for bash & zsh 
 * [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) - K8s prompt for fish (Use together with [Fish auto completion](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0))
 * [kubectl aliases](https://github.com/Aracki/configs/blob/master/.aliases) - check the '#KUBERNETES' section
+* [kubectl node-shell](https://github.com/kvaps/kubectl-node-shell) - ssh into your cluster nodes
+* [k9s](https://k9scli.io/) - terminal UI to interact with your Kubernetes clusters 
 
 ### ⚖️ Cluster resources
 * [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
@@ -39,4 +41,4 @@ Collection of miscellaneous helper tools.
 * [popeye (📦popeye)](https://github.com/derailed/popeye) - k8s cluster resource sanitizer
 * [sonobuoy](https://github.com/heptio/sonobuoy) - k8s diagnostic tool
 * [kubescape](https://github.com/armosec/kubescape) - testing if Kubernetes is deployed securely as defined in Kubernetes Hardening Guidance by NSA
-* [kubecost](https://github.com/kubecost/cost-model) - give you visibility into current and historical K8s spend and resource allocation
+* [opencost](https://github.com/kubecost/cost-model) - give you visibility into current and historical K8s spend and resource allocation
