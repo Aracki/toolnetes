@@ -19,8 +19,9 @@ Collection of miscellaneous helper tools.
 * [kube-ps1](https://github.com/jonmosco/kube-ps1) - K8s prompt for bash & zsh 
 * [fish-kube-prompt](https://github.com/aluxian/fish-kube-prompt) - K8s prompt for fish (Use together with [Fish auto completion](https://gist.github.com/Aracki/cf422173371d2118ae94bb6821f074e0))
 * [kubectl aliases](https://github.com/Aracki/configs/blob/master/.aliases) - check the '#KUBERNETES' section
-* [kubectl node-shell](https://github.com/kvaps/kubectl-node-shell) - ssh into your cluster nodes
-* [k9s](https://k9scli.io/) - terminal UI to interact with your Kubernetes clusters 
+* [kubectl node-shell (📦node-shell)](https://github.com/kvaps/kubectl-node-shell) - ssh into your cluster nodes
+* [k9s](https://k9scli.io/) - terminal UI to interact with your Kubernetes clusters
+* [kubectl images (📦images)](https://github.com/chenjiandongx/kubectl-images) - list deployed images
 
 ### ⚖️ Cluster resources
 * [kube-capacity (📦resource-capacity)](https://github.com/robscott/kube-capacity) - provide an overview of the resource requests/limits
